@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-flickr</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script src="/script/app.js"></script>
+</head>
+<body ng-app = "miniFlickr" ng-controller="photoController">
+    <div class = "container">
+        <div class = "page-header">
+            <div class = "row">
+                <div class="col-xs-12 col-md-8">
+                    <h1>Flickr Mountain Gallery</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "row">
+        {{ photos }}
+    </div>
+</body>
+</html>
